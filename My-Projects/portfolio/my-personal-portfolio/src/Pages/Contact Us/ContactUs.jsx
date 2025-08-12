@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Swal from "sweetalert2";
 
 const ContactUs = () => {
     useEffect(() => {
@@ -12,12 +13,18 @@ const ContactUs = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_34tyblv', 'template_0cldm2k', form.current, 'sYvXLspQYVhkHaw8e')
+        emailjs.sendForm('service_34tyblv', 'template_m12e5zn', form.current, 'sYvXLspQYVhkHaw8e')
             .then((result) => {
                 console.log(result.text);
                 form.current.reset();
             }, (error) => {
                 console.log(error.text);
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops!",
+                    text: "Something went wrong. Please try again later.",
+                    confirmButtonColor: "#d33",
+                });
             });
     };
 

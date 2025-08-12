@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="card w-[400px] lg:w-[450px] bg-[#2c1831] p-6 border rounded-lg shadow-2xl">
                     <img src="https://i.ibb.co.com/H63SzSd/Screenshot-2025-08-12-022702.png" alt="Shoes" className="rounded-xl bg-transparent lg:h-56" />
                     <div className="mt-4 text-white">
-                        <h1 className="mt-4 mb-2 text-xl">Evergreen Estates</h1>
+                        <h1 className="mt-4 mb-2 text-xl">Ekattor</h1>
                         <div className="flex flex-row flex-wrap gap-2 ">
                             <p className="p-2 bg-[#381d3f] rounded ">React</p>
                             <p className="p-2 bg-[#381d3f] rounded ">tailwind</p>
@@ -38,7 +38,7 @@ const Projects = () => {
                 <div className="card w-[400px] lg:w-[450px] bg-[#2c1831] p-6  border rounded-lg shadow-2xl">
                     <img src="https://i.ibb.co.com/JwcnzMh6/Screenshot-2025-08-12-023451.png" alt="Shoes" className="rounded-xl bg-transparent lg:h-56" />
                     <div className="mt-4 text-white">
-                        <h1 className="mt-4 mb-2 text-xl">Job Recruiter</h1>
+                        <h1 className="mt-4 mb-2 text-xl"> Banana Plant</h1>
                         <div className="flex flex-row flex-wrap gap-2 ">
                             <p className="p-2 bg-[#381d3f] rounded ">React</p>
                             <p className="p-2 bg-[#381d3f] rounded ">tailwind</p>
