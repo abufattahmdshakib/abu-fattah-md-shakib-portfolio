@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@plugin "daisyui"{
+  themes: light --default, dark;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  /* false , true*/
+  default: false;
+  --color-primary: #CAEB66;
+  --color-secondary: teal;
+}
+
+.font-urbanist {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Bottom border slide-in animation on hover */
+.underline-slide {
+  position: relative;
+  overflow: hidden;
+  border-bottom: none !important;
+}
+
+.underline-slide::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0; /* Initially width 0 */
+  background-color: #3b82f6;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+  z-index: 10;
+}
+
+.underline-slide:hover::after {
+  width: 100%;  /* On hover, width grows from 0 to full */
+}
+

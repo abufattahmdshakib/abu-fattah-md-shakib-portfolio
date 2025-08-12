@@ -1,0 +1,82 @@
+{
+    "project1": {
+        "id": 1,
+        "title": "Project One",
+        "images": [
+            "image1_1.jpg",
+            "image1_2.jpg",
+            "image1_3.jpg",
+            "image1_4.jpg",
+            "image1_5.jpg",
+            "image1_6.jpg"
+        ],
+        "details": [
+            "Details about project1_1",
+            "Details about project1_2",
+            "Details about project1_3",
+            "Details about project1_4",
+            "Details about project1_5",
+            "Details about project1_6"
+        ]
+    },
+    "project2": {
+        "id": 2,
+        "title": "Project Two",
+        "images": [
+            "image2_1.jpg",
+            "image2_2.jpg",
+            "image2_3.jpg",
+            "image2_4.jpg",
+            "image2_5.jpg",
+            "image2_6.jpg"
+        ],
+        "details": [
+            "Details about project2_1",
+            "Details about project2_2",
+            "Details about project2_3",
+            "Details about project2_4",
+            "Details about project2_5",
+            "Details about project2_6"
+        ]
+    },
+    "project3": {
+        "id": 3,
+        "title": "Project Three",
+        "images": [
+            "image3_1.jpg",
+            "image3_2.jpg",
+            "image3_3.jpg",
+            "image3_4.jpg",
+            "image3_5.jpg",
+            "image3_6.jpg"
+        ],
+        "details": [
+            "Details about project3_1",
+            "Details about project3_2",
+            "Details about project3_3",
+            "Details about project3_4",
+            "Details about project3_5",
+            "Details about project3_6"
+        ]
+    },
+    "project4": {
+        "id": 4,
+        "title": "Project Four",
+        "images": [
+            "image4_1.jpg",
+            "image4_2.jpg",
+            "image4_3.jpg",
+            "image4_4.jpg",
+            "image4_5.jpg",
+            "image4_6.jpg"
+        ],
+        "details": [
+            "Details about project4_1",
+            "Details about project4_2",
+            "Details about project4_3",
+            "Details about project4_4",
+            "Details about project4_5",
+            "Details about project4_6"
+        ]
+    }
+}
