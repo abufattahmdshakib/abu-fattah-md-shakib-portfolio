@@ -1,0 +1,13 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    transition: transform 0.5s ease-in-out;
+}
+
+.pulse-grow:hover {
+    transform: scale(1.1);
+}
+
