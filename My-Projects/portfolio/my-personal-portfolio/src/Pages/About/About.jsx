@@ -17,7 +17,7 @@ const About = () => {
                 Beyond technical skills, I am dedicated to meeting deadlines, attentive to detail, and passionate about delivering high-quality work. I look forward to applying my frontend and MERN stack skills to exceed client expectations and bring innovative solutions.</p>
             <div class="flex justify-center gap-4 mt-6 lg:justify-start">
                 <a class="text-lg text-white rounded border-accent-400 btn btn-outline hover:bg-pink-800 hover:text-white hover:transition-all hover:duration-1000 " href="/#projects">Project</a>
-                <a target="_blank" class="text-lg text-white rounded btn bg-pink-800 hover:bg-transparent hover:border-accent-400 hover:transition-all hover:duration-1000 hover:text-white" href="https://drive.google.com/file/d/14sJp9G767-Px-PU-q7TpNbMna3yHUl--/view?usp=sharing">Resume</a>
+                <a target="_blank" class="text-lg text-white rounded btn bg-pink-800 hover:bg-transparent hover:border-accent-400 hover:transition-all hover:duration-1000 hover:text-white" href="https://drive.google.com/file/d/1b-t4hSDMBb-x5HwNdWvwwJDFm-daAB_g/view?usp=sharing">Resume</a>
             </div>
             <div className="mt-5">
                 <Link to='/'><button class="text-lg text-white border-none rounded btn bg-pink-800 hover:bg-transparent hover:border-accent-400 hover:transition-all hover:duration-1000 hover:text-white">Move Home</button></Link>
