@@ -7,6 +7,8 @@ import ErrorElement from "../Layout/ErrorElement/ErrorElement";
 import About from "../Pages/About/About";
 import ProjectOneDetails from "../ProjectDetails/ProjectOneDetails";
 import ProjectTwoDetails from "../ProjectDetails/ProjectTwoDetails";
+import ProjectOneDetailsCemex from "../ProjectDetails/ProjectOneDetailsCemex";
+import ProjectOneDetailsBeabed from "../ProjectDetails/ProjectOneDetailsBeabed";
 
 const router = createBrowserRouter([
     {
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About></About>
+            },
+            {
+                path: "/ProjectOneDetailsCemex",
+                element: <ProjectOneDetailsCemex></ProjectOneDetailsCemex>
+            },
+            {
+                path: "/ProjectOneDetailsBeabed",
+                element: <ProjectOneDetailsBeabed></ProjectOneDetailsBeabed>
             },
             {
                 path: "/projectOne",

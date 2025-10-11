@@ -24,7 +24,8 @@ const ProjectOneDetails = () => {
                         <div className="flex gap-5 lg:gap-20 items-center flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
                             <img src="https://i.ibb.co.com/m5yHKYBN/Screenshot-2025-08-12-024346.png" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
                             <div className="text-white font-medium">
-                                <span className="text-xl font-bold underline">Advertisement Section : </span> Elevate your property browsing experience with our Advertisement Section 🏡. Discover enticing admin-verified property cards, providing a direct route to comprehensive details. Explore homes effortlessly and make informed decisions, ensuring a seamless journey from discovery to finding your dream property. Your ideal home is just a click away!
+                                <span className="text-xl font-bold underline">Empowering Communities, Inspiring Change : </span> 🌿
+                                Through our diverse social development initiatives, we strive to build a conscious, compassionate, and sustainable society. From self-employment and entrepreneurship workshops that empower youth, to clean-up drives and tree plantation campaigns that protect our environment, each activity plays a vital role in community growth. We organize blood donation camps to save lives, health check-ups for senior citizens to ensure well-being, and water and sanitation projects to promote access to safe resources. Our road safety education and hygiene awareness drives encourage responsible, healthy living. Every initiative reflects our mission — to create positive change, inspire participation, and unite people for a better future. 🌍✨
                             </div>
                         </div>
                         <div className="flex gap-5 lg:gap-20 items-center flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
