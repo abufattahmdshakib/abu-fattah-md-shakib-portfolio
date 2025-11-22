@@ -14,7 +14,7 @@ const NewsLetter = () => {
                 <div className="hero-content text-center text-neutral-content">
                     <div>
                         <h1 className="text-white text-center text-2xl md:text-4xl mb-5">SUBSCRIBE MY NEWSLETTER</h1>
-                        <fieldset className="form-control w-[350px] md:w-[500px] mx-auto">
+                        <fieldset className="form-control w-[300px] md:w-[500px] mx-auto">
                             <div className="relative ">
                                 <input type="text" placeholder="Enter Your Email Here" className="input input-bordered w-full pr-16" />
                                 <button className="btn btn-accent text-black absolute top-0 right-0 rounded-l-none">Subscribe</button>
