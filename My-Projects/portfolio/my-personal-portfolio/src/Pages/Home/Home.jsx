@@ -11,7 +11,7 @@ import Tooling from "../Tools/Tooling";
 
 const Home = () => {
     return (
-        <div >
+        <div className="overflow-x-hidden px-4" >
             <Navbar></Navbar>
             <Banner></Banner>
             {/* <Education></Education> */}

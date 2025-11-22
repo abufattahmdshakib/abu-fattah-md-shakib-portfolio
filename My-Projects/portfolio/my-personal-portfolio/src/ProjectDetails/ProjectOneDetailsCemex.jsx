@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProjectOneDetailsCemex = () => {
     return (
-        <div className="pt-10 container mx-auto">
+        <div className="pt-10 container mx-auto overflow-x-hidden">
             <Link to='/'><div className="flex items-center btn btn-outline w-40 border-white ml-4 mb-5 lg:mb-0">
                 <p className="text-white">Back Home</p>
                 <IoMdArrowRoundBack className="text-white text-2xl" />

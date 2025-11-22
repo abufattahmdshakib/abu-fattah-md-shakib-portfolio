@@ -27,7 +27,7 @@ const Navbar = () => {
                             src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
                         >
                         </Player>
-                        <h1 className="text-xl font-bold  text-white " style={{ whiteSpace: "nowrap"}}>Abu Fattah Md Shakib</h1>
+                        <h1 className="text-xl font-bold  text-white " style={{ whiteSpace: "nowrap"}}>Abu Fattah Md <br /> Shakib</h1>
                     </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">

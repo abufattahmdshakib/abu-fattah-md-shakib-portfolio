@@ -14,7 +14,7 @@ const EducationExperience = () => {
             data-aos-easing="linear"
             data-aos-duration="2500" className=" max-w-6xl mx-auto">
             <h1 className="text-center text-white font-bold text-5xl mb-3">Education & Experience</h1>
-            <hr className="w-[400px] mx-auto border-2 mb-14" />
+            <hr className="w-[350px] sm:w-[400px] mx-auto border-2 mb-14" />
             <div className="flex lg:flex-row flex-col justify-between gap-6">
                 <div>
                     <Education></Education>

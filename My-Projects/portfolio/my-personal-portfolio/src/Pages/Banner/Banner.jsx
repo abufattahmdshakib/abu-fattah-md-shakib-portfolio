@@ -18,7 +18,7 @@ const Banner = () => {
                         <p className="mb-5 font-normal text-base text-white">✨ Young Trailblazer in Full Stack Development 💻 | Mastering the art of code from UI/UX magic to server-side wizardry. Fluent in HTML, CSS, JavaScript, React,Firebase, Node.js, MongoDB. Committed to turning ideas into reality and making a mark in the digital realm. Let's build brilliance together! 🌐🚀</p>
                         <div class="flex justify-center gap-4 mt-6 lg:justify-start">
                             <a class="text-lg text-white rounded border-accent-400 btn btn-outline hover:bg-pink-800 hover:text-white hover:transition-all hover:duration-1000 " href="/#projects">Project</a>
-                            <a target="_blank" class="text-lg text-white rounded btn bg-pink-800 hover:bg-transparent hover:border-accent-400 hover:transition-all hover:duration-1000 hover:text-white" download="" href="https://drive.google.com/file/d/1YFwnrce3mWQx_VdCcaWugz0L0s7yaNHf/view?usp=sharing">Resume</a>
+                            <a target="_blank" class="text-lg text-white rounded btn bg-pink-800 hover:bg-transparent hover:border-accent-400 hover:transition-all hover:duration-1000 hover:text-white" download="" href="https://drive.google.com/file/d/1EznHKJgX8JfLqxbWVvr-kUokJqBrlnx3/view?usp=sharing">Resume</a>
                         </div>
                     </div>
                     <div className="">
