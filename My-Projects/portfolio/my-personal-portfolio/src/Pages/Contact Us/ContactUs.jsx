@@ -53,9 +53,9 @@ const ContactUs = () => {
                 </div>
                 <div>
                     <form ref={form} onSubmit={sendEmail} className="grid gap-10 p-2 sm:p-6 border">
-                        <input className="p-2 text-white transition-all border-b outline-none bg-[#010b1c] focus:border-accent-400" type="text" placeholder=" Name" name="from_name" />
-                        <input className="p-2 text-white transition-all border-b outline-none bg-[#010b1c] focus:border-accent-400" type="email" placeholder=" Email" name="from_email" />
-                        <textarea name="message" className="bg-[#010b1c] text-white border-b outline-none focus:border-accent-400 transition-all p-2 resize-none overflow-hidden min-h-[8rem]" type="text" placeholder="Message"></textarea>
+                        <input className="py-2 placeholder:pl-2 text-white transition-all border-b outline-none bg-[#010b1c] focus:border-accent-400" type="text" placeholder=" Name" name="from_name" />
+                        <input className="py-2 placeholder:pl-2 text-white transition-all border-b outline-none bg-[#010b1c] focus:border-accent-400" type="email" placeholder=" Email" name="from_email" />
+                        <textarea name="message" className="bg-[#010b1c] text-white border-b outline-none focus:border-accent-400 transition-all placeholder:pl-2 py-2 resize-none overflow-hidden min-h-[8rem]" type="text" placeholder="Message"></textarea>
                         <input type="submit" className="btn rounded-none" value='Send Message' />
                     </form>
                 </div>

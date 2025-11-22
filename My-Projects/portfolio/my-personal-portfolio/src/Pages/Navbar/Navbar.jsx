@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn -ml-5 btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="#FFF" viewBox="0 0 24 24" id="menu"><g data-name="Layer 2"><g data-name="menu"><rect width="18" height="2" x="3" y="11" rx=".95" ry=".95"></rect><rect width="18" height="2" x="3" y="16" rx=".95" ry=".95"></rect><rect width="18" height="2" x="3" y="6" rx=".95" ry=".95"></rect></g></g></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -20,7 +20,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <div className="flex lg:gap-2 items-center">
+                    <div className="flex gap-6 lg:gap-2 items-center">
                         <Player className="w-24"
                             autoplay
                             loop
